@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Relocate Pro — профессиональный переезд квартир и офисов. Фиксированная цена, страхование груза, нулевой стресс.">
+  <title>Relocate Pro — Переезд без стресса</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon (inline SVG) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📦</text></svg>">
+</head>
+<body>
+
+  <!-- ==============================
+       HEADER
+       ============================== -->
+  <header class="header" id="header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <div class="logo-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="1" y="6" width="22" height="15" rx="2"/>
+            <path d="M1 10h22"/>
+            <path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>
+          </svg>
+        </div>
+        Relocate Pro
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#packages">Тарифы</a></li>
+          <li><a href="#checklist">Как мы работаем</a></li>
+          <li><a href="#trust">Гарантии</a></li>
+          <li><a href="#lead" class="btn btn-primary">Рассчитать стоимость</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Открыть меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+
+  <!-- ==============================
+       BLOCK 1 — HERO
+       ============================== -->
+  <section class="hero" id="hero">
+    <div class="hero-grid-pattern"></div>
+    <div class="container">
+      <div class="hero-content">
+
+        <div class="hero-badge reveal">
+          <span class="hero-badge-dot"></span>
+          Принимаем заявки на март
+          <span class="hero-badge-tag">Свободные даты</span>
+        </div>
+
+        <h1 class="reveal reveal-delay-1">
+          Мы пакуем. Мы везём.<br>
+          <span class="accent">Вы отдыхаете.</span>
+        </h1>
+
+        <p class="hero-subtitle reveal reveal-delay-2">
+          Профессиональный переезд квартир и офисов с фиксированной ценой. Без скрытых доплат, без сюрпризов — только спокойствие.
+        </p>
+
+        <div class="hero-cta reveal reveal-delay-3">
+          <a href="#lead" class="btn btn-primary btn-large">
+            Получить расчёт
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+          <a href="#packages" class="btn btn-secondary btn-large">Посмотреть тарифы</a>
+        </div>
+
+        <div class="hero-stats reveal reveal-delay-4">
+          <div class="hero-stat">
+            <div class="hero-stat-value">12 000+</div>
+            <div class="hero-stat-label">Переездов выполнено</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-value">4.9</div>
+            <div class="hero-stat-label">Средняя оценка</div>
+          </div>
+          <div class="hero-stat">
+            <div class="hero-stat-value">0 ₽</div>
+            <div class="hero-stat-label">Скрытых доплат</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       BLOCK 2 — SERVICE PACKAGES
+       ============================== -->
+  <section class="packages" id="packages">
+    <div class="container">
+
+      <div class="packages-header">
+        <span class="section-label reveal">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/>
+          </svg>
+          Тарифы
+        </span>
+        <h2 class="section-title reveal reveal-delay-1">Три тарифа — под любой сценарий</h2>
+        <p class="section-subtitle reveal reveal-delay-2" style="margin: 0 auto;">
+          Каждый тариф включает страхование груза и фиксированную стоимость. Выберите уровень сервиса, который вам подходит.
+        </p>
+      </div>
+
+      <div class="packages-grid">
+
+        <!-- Economy -->
+        <div class="package-card reveal">
+          <div class="package-icon eco">📦</div>
+          <div class="package-name">Эконом</div>
+          <div class="package-desc">Вы пакуете — мы перевозим. Идеально для тех, кто готов помочь руками, но не хочет нанимать газель.</div>
+          <div class="package-price">
+            <span class="package-price-value">от 8 900 ₽</span>
+            <span class="package-price-unit">/ переезд</span>
+          </div>
+          <ul class="package-features">
+            <li><span class="check">✓</span> Грузчики + транспорт</li>
+            <li><span class="check">✓</span> Страхование груза</li>
+            <li><span class="check">✓</span> Фиксированная цена</li>
+            <li class="disabled"><span class="check">—</span> Упаковка вещей</li>
+            <li class="disabled"><span class="check">—</span> Разборка/сборка мебели</li>
+          </ul>
+          <a href="#lead" class="btn btn-secondary btn-large package-cta">Выбрать Эконом</a>
+        </div>
+
+        <!-- Standard (Featured) -->
+        <div class="package-card featured reveal reveal-delay-1">
+          <span class="package-badge">Популярный выбор</span>
+          <div class="package-icon std">🏠</div>
+          <div class="package-name">Стандарт</div>
+          <div class="package-desc">Полноценный переезд с упаковкой. Мы привозим материалы, пакуем, грузим и расставляем на новом месте.</div>
+          <div class="package-price">
+            <span class="package-price-value">от 15 900 ₽</span>
+            <span class="package-price-unit">/ переезд</span>
+          </div>
+          <ul class="package-features">
+            <li><span class="check">✓</span> Грузчики + транспорт</li>
+            <li><span class="check">✓</span> Страхование груза</li>
+            <li><span class="check">✓</span> Фиксированная цена</li>
+            <li><span class="check">✓</span> Упаковка вещей</li>
+            <li><span class="check">✓</span> Разборка/сборка мебели</li>
+          </ul>
+          <a href="#lead" class="btn btn-primary btn-large package-cta">Выбрать Стандарт</a>
+        </div>
+
+        <!-- Turnkey -->
+        <div class="package-card reveal reveal-delay-2">
+          <div class="package-icon prm">🔑</div>
+          <div class="package-name">Под ключ</div>
+          <div class="package-desc">Полный цикл: от аудита квартиры до расстановки книг на полках. Вы просто переезжаете жить.</div>
+          <div class="package-price">
+            <span class="package-price-value">от 29 900 ₽</span>
+            <span class="package-price-unit">/ переезд</span>
+          </div>
+          <ul class="package-features">
+            <li><span class="check">✓</span> Всё из тарифа «Стандарт»</li>
+            <li><span class="check">✓</span> Персональный менеджер</li>
+            <li><span class="check">✓</span> Уборка старой квартиры</li>
+            <li><span class="check">✓</span> Расстановка по плану</li>
+            <li><span class="check">✓</span> Вывоз упаковки на следующий день</li>
+          </ul>
+          <a href="#lead" class="btn btn-secondary btn-large package-cta">Выбрать Под ключ</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       BLOCK 3 — THE MAGIC CHECKLIST
+       ============================== -->
+  <section class="checklist" id="checklist">
+    <div class="container">
+
+      <div class="checklist-header">
+        <span class="section-label reveal">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>
+          </svg>
+          Как мы работаем
+        </span>
+        <h2 class="section-title reveal reveal-delay-1">Пять шагов — и вы дома</h2>
+        <p class="section-subtitle reveal reveal-delay-2">
+          Каждый этап отточен на тысячах переездов. Вы контролируете процесс — мы делаем всю работу.
+        </p>
+      </div>
+
+      <div class="checklist-items">
+
+        <div class="checklist-item reveal" data-step="1">
+          <div class="checklist-step">01</div>
+          <div class="checklist-icon">📋</div>
+          <div class="checklist-item-title">Оценка</div>
+          <div class="checklist-item-desc">Бесплатный выезд или видео-оценка объёма. Фиксируем цену в договоре.</div>
+        </div>
+
+        <div class="checklist-item reveal reveal-delay-1" data-step="2">
+          <div class="checklist-step">02</div>
+          <div class="checklist-icon">📦</div>
+          <div class="checklist-item-title">Упаковка</div>
+          <div class="checklist-item-desc">Профессиональные материалы: пузырчатая плёнка, жёсткие короба, маркировка.</div>
+        </div>
+
+        <div class="checklist-item reveal reveal-delay-2" data-step="3">
+          <div class="checklist-step">03</div>
+          <div class="checklist-icon">🔧</div>
+          <div class="checklist-item-title">Разборка</div>
+          <div class="checklist-item-desc">Мебель, техника, светильники — аккуратно разбираем и документируем крепёж.</div>
+        </div>
+
+        <div class="checklist-item reveal reveal-delay-3" data-step="4">
+          <div class="checklist-step">04</div>
+          <div class="checklist-icon">🚛</div>
+          <div class="checklist-item-title">Перевозка</div>
+          <div class="checklist-item-desc">Закрытые фургоны с фиксацией груза. GPS-трекинг в реальном времени.</div>
+        </div>
+
+        <div class="checklist-item reveal reveal-delay-4" data-step="5">
+          <div class="checklist-step">05</div>
+          <div class="checklist-icon">🏡</div>
+          <div class="checklist-item-title">Расстановка</div>
+          <div class="checklist-item-desc">Собираем мебель, расставляем по плану, убираем упаковку. Готово.</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       BLOCK 4 — TRUST & SAFETY
+       ============================== -->
+  <section class="trust" id="trust">
+    <div class="container">
+
+      <div class="trust-header">
+        <span class="section-label reveal">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+          Гарантии
+        </span>
+        <h2 class="section-title reveal reveal-delay-1">Ваше спокойствие — наш продукт</h2>
+        <p class="section-subtitle reveal reveal-delay-2" style="margin: 0 auto;">
+          Мы убрали все причины для беспокойства. Каждый переезд защищён договором и страховкой.
+        </p>
+      </div>
+
+      <div class="trust-grid">
+
+        <div class="trust-card reveal">
+          <div class="trust-card-icon blue">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/>
+            </svg>
+          </div>
+          <div class="trust-card-title">Фиксированная цена в договоре</div>
+          <div class="trust-card-desc">Сумма в договоре — финальная. Никаких «а ещё за этаж», «а ещё за расстояние». Мы называем цену один раз.</div>
+        </div>
+
+        <div class="trust-card reveal reveal-delay-1">
+          <div class="trust-card-icon green">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <div class="trust-card-title">Страхование каждого груза</div>
+          <div class="trust-card-desc">Полное покрытие стоимости вещей. Если что-то повреждено — компенсация без споров и экспертиз.</div>
+        </div>
+
+        <div class="trust-card reveal reveal-delay-2">
+          <div class="trust-card-icon amber">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+            </svg>
+          </div>
+          <div class="trust-card-title">Точное время прибытия</div>
+          <div class="trust-card-desc">Бригада приезжает в согласованное окно ±15 минут. Опоздание — скидка 10% автоматически.</div>
+        </div>
+
+        <div class="trust-card reveal reveal-delay-3">
+          <div class="trust-card-icon blue">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <div class="trust-card-title">Проверенные бригады</div>
+          <div class="trust-card-desc">Все сотрудники в штате. Без субподряда, без случайных людей. Средний стаж грузчика — 4 года.</div>
+        </div>
+
+      </div>
+
+      <div class="trust-badges reveal">
+        <div class="trust-badge">
+          <div class="trust-badge-icon">📄</div>
+          Официальный договор
+        </div>
+        <div class="trust-badge">
+          <div class="trust-badge-icon">💳</div>
+          Оплата по факту
+        </div>
+        <div class="trust-badge">
+          <div class="trust-badge-icon">🔒</div>
+          Данные защищены
+        </div>
+        <div class="trust-badge">
+          <div class="trust-badge-icon">⭐</div>
+          4.9 на Яндекс.Картах
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       BLOCK 5 — LEAD CAPTURE
+       ============================== -->
+  <section class="lead" id="lead">
+    <div class="container">
+      <div class="lead-wrapper">
+
+        <div class="lead-header">
+          <span class="section-label reveal">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+            </svg>
+            Рассчитать стоимость
+          </span>
+          <h2 class="section-title reveal reveal-delay-1">Узнайте точную цену за 2 минуты</h2>
+          <p class="section-subtitle reveal reveal-delay-2" style="margin: 0 auto;">
+            Заполните форму — мы перезвоним в течение 15 минут с точным расчётом. Без обязательств.
+          </p>
+        </div>
+
+        <div class="lead-form reveal reveal-delay-3">
+
+          <div class="form-steps">
+            <div class="form-step-dot active"></div>
+            <div class="form-step-dot"></div>
+            <div class="form-step-dot"></div>
+          </div>
+
+          <form id="quoteForm" onsubmit="return false;">
+
+            <!-- Step 1: Addresses -->
+            <div class="form-step-content" data-step="1">
+              <div class="form-group">
+                <label class="form-label" for="from">Откуда переезжаем</label>
+                <input type="text" id="from" class="form-input" placeholder="Адрес или район, например: Арбат, ул. Новый Арбат 15">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="to">Куда переезжаем</label>
+                <input type="text" id="to" class="form-input" placeholder="Адрес или район, например: Хамовники, ул. Льва Толстого 23">
+              </div>
+            </div>
+
+            <!-- Step 2: Details -->
+            <div class="form-step-content" data-step="2" style="display: none;">
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="date">Желаемая дата</label>
+                  <input type="date" id="date" class="form-input">
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="type">Тип переезда</label>
+                  <select id="type" class="form-input">
+                    <option value="" disabled selected>Выберите</option>
+                    <option value="apartment">Квартира</option>
+                    <option value="office">Офис</option>
+                    <option value="dacha">Дача / Загородный дом</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="rooms">Количество комнат</label>
+                <select id="rooms" class="form-input">
+                  <option value="" disabled selected>Выберите</option>
+                  <option value="studio">Студия</option>
+                  <option value="1">1 комната</option>
+                  <option value="2">2 комнаты</option>
+                  <option value="3">3 комнаты</option>
+                  <option value="4+">4+ комнат</option>
+                </select>
+              </div>
+            </div>
+
+            <!-- Step 3: Contact -->
+            <div class="form-step-content" data-step="3" style="display: none;">
+              <div class="form-group">
+                <label class="form-label" for="name">Ваше имя</label>
+                <input type="text" id="name" class="form-input" placeholder="Как к вам обращаться?">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="phone">Телефон</label>
+                <input type="tel" id="phone" class="form-input" placeholder="+7 (___) ___-__-__">
+              </div>
+            </div>
+
+            <button type="button" class="btn btn-primary btn-large form-submit" id="formBtn">
+              Далее
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </button>
+          </form>
+
+          <p class="form-note">Нажимая кнопку, вы соглашаетесь с политикой обработки персональных данных</p>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==============================
+       FOOTER
+       ============================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="1" y="6" width="22" height="15" rx="2"/><path d="M1 10h22"/><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>
+        </svg>
+        Relocate Pro
+      </div>
+      <ul class="footer-links">
+        <li><a href="#packages">Тарифы</a></li>
+        <li><a href="#checklist">Как мы работаем</a></li>
+        <li><a href="#trust">Гарантии</a></li>
+        <li><a href="#lead">Контакты</a></li>
+      </ul>
+      <div class="footer-copy">&copy; 2026 Relocate Pro. Все права защищены.</div>
+    </div>
+  </footer>
+
+
+  <!-- ==============================
+       SCRIPTS
+       ============================== -->
+  <script>
+    // --- Scroll Reveal ---
+    const revealElements = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.15, rootMargin: '0px 0px -40px 0px' });
+
+    revealElements.forEach(el => revealObserver.observe(el));
+
+    // --- Header scroll effect ---
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 10);
+    }, { passive: true });
+
+    // --- Mobile nav toggle ---
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    navToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('open');
+    });
+
+    // Close mobile nav on link click
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => navLinks.classList.remove('open'));
+    });
+
+    // --- Checklist: activate on scroll ---
+    const checklistItems = document.querySelectorAll('.checklist-item');
+    const checklistObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        entry.target.classList.toggle('active', entry.isIntersecting);
+      });
+    }, { threshold: 0.5 });
+
+    checklistItems.forEach(item => checklistObserver.observe(item));
+
+    // --- Multi-step form ---
+    let currentStep = 1;
+    const totalSteps = 3;
+    const formBtn = document.getElementById('formBtn');
+    const formDots = document.querySelectorAll('.form-step-dot');
+    const formSteps = document.querySelectorAll('.form-step-content');
+
+    function updateFormUI() {
+      // Update dots
+      formDots.forEach((dot, i) => {
+        dot.classList.remove('active', 'done');
+        if (i + 1 === currentStep) dot.classList.add('active');
+        if (i + 1 < currentStep) dot.classList.add('done');
+      });
+
+      // Show/hide steps
+      formSteps.forEach(step => {
+        step.style.display = step.dataset.step == currentStep ? 'block' : 'none';
+      });
+
+      // Update button text
+      if (currentStep === totalSteps) {
+        formBtn.innerHTML = `
+          Отправить заявку
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 2L11 13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+          </svg>
+        `;
+      } else {
+        formBtn.innerHTML = `
+          Далее
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        `;
+      }
+    }
+
+    formBtn.addEventListener('click', () => {
+      if (currentStep < totalSteps) {
+        currentStep++;
+        updateFormUI();
+      } else {
+        // Submit
+        formBtn.innerHTML = '✓ Заявка отправлена!';
+        formBtn.style.background = '#059669';
+        formBtn.disabled = true;
+        setTimeout(() => {
+          formBtn.innerHTML = `
+            Отправить заявку
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 2L11 13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+            </svg>
+          `;
+          formBtn.style.background = '';
+          formBtn.disabled = false;
+          currentStep = 1;
+          updateFormUI();
+          document.getElementById('quoteForm').reset();
+        }, 3000);
+      }
+    });
+
+    // --- Smooth scroll for anchor links ---
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
